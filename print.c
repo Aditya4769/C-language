@@ -58,3 +58,16 @@ void main(){
 //	}
 //	
 //}
+//#include<stdio.h>
+//void main(){
+//
+//	printf("Hello Everyone");
+//}
+
+#include<stdio.h>
+int main(){
+	int a = 15;
+	float b = 3.14;
+	int A = (int)b;
+	printf("%d",2*A*a);
+}
