@@ -1,73 +1,17 @@
-//#include<stdio.h>
-//void main(){
-//
-//	printf("Hello Everyone");
-//}
-//#include<stdio.h>
-//void main(){
-//	int a = 9;
-//	int b = 4;
-//    
-//    int c = a+b;
-//    printf("a+b = %d \n",c);
-//}
+Compiling single file...
+--------
+- Filename: C:\Users\maa sharda\Desktop\C language\C-language\print.c
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
 
-#include<stdio.h>
-void main(){
-	int age;
-	printf("Enter Your age: \n");
-	scanf("%d",&age);
-	if (age>=18){
-		printf("Eligible");
-	}
+Processing C source file...
+--------
+- C Compiler: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\gcc.exe
+- Command: gcc.exe "C:\Users\maa sharda\Desktop\C language\C-language\print.c" -o "C:\Users\maa sharda\Desktop\C language\C-language\print.exe"  -I"C:\Program Files (x86)\Dev-Cpp\MinGW64\include" -I"C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include" -I"C:\Program Files (x86)\Dev-Cpp\MinGW64\lib\gcc\x86_64-w64-mingw32\4.9.2\include" -L"C:\Program Files (x86)\Dev-Cpp\MinGW64\lib" -L"C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib" -static-libgcc
 
-	else{
-		printf("Not-Eligible");
-		}
-}
-
-//#include<stdio.h>
-//void main(){
-//	int a;
-//	int b;
-//	int c;
-//	printf("Enter your First Number: \n");
-//	printf("Enter your Second Number: \n");
-//	printf("Enter Your Opertors you want to operates: \n");
-//	scanf("%d",&a);
-//	scanf("%d",&b);
-//	scanf("%d",&c);
-//	
-//	if (c== 1){
-//		print("Addition of Your No is: %d \n",a+b);
-//	}
-//	else if (c== -){
-//		print("Subtraction of Your No is: %d \n",a-b);
-//	}
-//	else if (c== *){
-//		print("Multiplication of Your No is: %d \n",a*b);
-//	}
-//	else if (c== **){
-//		print("Power of numbers of Your No is: %d \n",a**b);
-//	}
-//	else if (c== /){
-//		print("Divide of Your No is: %d \n",a/b);
-//	}
-//	else{
-//		print("Mode of Your No is: %d \n",a%b);
-//	}
-//	
-//}
-//#include<stdio.h>
-//void main(){
-//
-//	printf("Hello Everyone");
-//}
-
-#include<stdio.h>
-int main(){
-	int a = 15;
-	float b = 3.14;
-	int A = (int)b;
-	printf("%d",2*A*a);
-}
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\maa sharda\Desktop\C language\C-language\print.exe
+- Output Size: 127.931640625 KiB
+- Compilation Time: 0.22s
