@@ -199,3 +199,105 @@
 //			printf("Invalid");
 //	}
 //}
+
+
+
+//#include<stdio.h>
+//void main(){
+//	int a = 2;
+//	int b = 1;
+//	while (b<11){
+//		
+//		printf("%d X %d = %d\n",a,b,a*b);
+//		b = b+1;
+//	}
+//}
+
+//#include<stdio.h>
+//void main(){
+//	int n;
+//	for (n=1;n<=20;n=n+2){
+//		printf("%d\n",n);
+//	}
+//}
+
+//#include<stdio.h>
+//int main(){
+//	int n=10;
+//	do{
+//		printf("%d",n);
+//		n=n-1;
+//	}while(n<0);
+//}
+
+//1. write a c program to find factorial of a number
+
+//#include <stdio.h>
+//int main()
+//{
+//    int n,i,f;
+//    f=1;
+//    i=1;
+//    scanf("%d",&n);
+//    while(i<=n)
+//    {
+//        f=f*i;
+//        i=i+1;
+//    }
+//    printf("%d",f);
+//}
+
+
+
+
+//#include<stdio.h>
+//void main(){
+//	int n,i,add;
+//	scanf("%d",&n);
+//	add = 0;
+//	for (i=1;i<=n;i=i+1){
+//	add+=i;
+//	}
+//	printf("%d",add);
+//	
+//}
+
+
+//#include<stdio.h>
+//void main(){
+//	int n,i,add;
+//	scanf("%d",&n);
+//	add = 0;
+//	for (i=2;i<=n;i=i+2){
+//	add+=i;
+//	}
+//	printf("%d",add);
+//	
+//}
+
+
+#include <stdio.h>
+ 
+int main()
+{
+    int number, rem, sum = 0, i;
+ 
+    printf("Enter a Number: ");
+    scanf("%d", &number);
+    for (i = 1; i <number; i++)
+    {
+        rem = number % i;
+	if (rem == 0)
+        {
+            sum = sum + i;
+        }
+    }
+    if (sum == number)
+        printf("%d is perfect number", number);
+    else
+        printf("%d is not a perfect number", number);
+    return 0;
+}
+
+
+
